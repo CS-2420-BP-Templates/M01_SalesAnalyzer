@@ -52,8 +52,10 @@ The function will output the information of the class to the stream
 ### `friend std::ostream& operator<<(std::ostream &, const SalesAnalyzer & gt);`
 The ostream operator will call displayReport function to display the information of the class.
 
+## Write the Main method
+Write a program that instantiates a SalesAnalyzer object. Open the Sales.txt file and read the first value, which represents the number of sales entries in the file.
 
-
+Using this value, read in each sales amount and add it to your SalesAnalyzer object. Once all data has been processed, display the results by printing the SalesAnalyzer object.
 ## Sample Output
 ```angular2html
 ===== Sales Performance Report =====
